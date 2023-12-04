@@ -1,0 +1,23 @@
+{
+    "CLEAN":[
+        {"model_name":"VGG16","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":512},
+        {"model_name":"ResNet50","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":2048},
+        {"model_name":"Shake110-270","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":2048},
+        {"model_name":"Shake110-270","data_name":"CIFAR100","deg_type":"blur","num_classes":100,"num_features":2048},
+        {"model_name":"ResNet2_56","data_name":"TINY","deg_type":"blur","num_classes":200,"num_features":64}
+    ],
+    "MIXED":[
+        {"model_name":"VGG16","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":512},
+        {"model_name":"ResNet50","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":2048},
+        {"model_name":"Shake110-270","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":2048},
+        {"model_name":"Shake110-270","data_name":"CIFAR100","deg_type":"blur","num_classes":100,"num_features":2048},
+        {"model_name":"ResNet2_56","data_name":"TINY","deg_type":"blur","num_classes":200,"num_features":64}
+    ],
+    "CUTBLUR":[
+        {"model_name":"VGG16","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":512},
+        {"model_name":"ResNet50","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":2048},
+        {"model_name":"Shake110-270","data_name":"CIFAR10","deg_type":"blur","num_classes":10,"num_features":2048},
+        {"model_name":"Shake110-270","data_name":"CIFAR100","deg_type":"blur","num_classes":100,"num_features":2048},
+        {"model_name":"ResNet2_56","data_name":"TINY","deg_type":"blur","num_classes":200,"num_features":64}
+    ]
+}
